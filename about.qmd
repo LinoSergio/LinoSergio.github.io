@@ -1,0 +1,44 @@
+---
+title: "Artigos e trabalhos publicados"
+bibliography: references.bib
+---
+
+## Artigos Publicados:
+
+1.  [@Gomes-Neto2024]
+
+2.  [@Durço2023]
+
+3.  [@Guimarães2023]
+
+4.  [@Durço2023a]
+
+5.  [@de2023]
+
+6.  [@Gois2023]
+
+7.  [@Gois2022]
+
+8.  [@Conceição2021]
+
+9.  [@Conceição2020]
+
+10. [@Conceição2021a]
+
+11. [@Conceição2020a]
+
+12. [@Carvalho2020]
+
+13. [@Gomes-Neto2019]
+
+14. [@Gomes-Neto2019a]
+
+15. [@Fernandes2018]
+
+16. [@Gomes2018]
+
+17. [@Rocha2018]
+
+18. [@Conceição2016]
+
+## Referencias completas

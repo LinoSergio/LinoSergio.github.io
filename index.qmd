@@ -1,0 +1,44 @@
+---
+title: "Lino Sergio Rocha Conceição,PhD"
+about:
+  template: jolla
+  image: lino.jpg
+  links:
+    - icon: instagram
+      text: instagram
+      href: https://www.instagram.com/dr.linosergio
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/linosergiorocha
+    - icon: envelope
+      text: Email
+      href: linosergiorocha@gmail.com
+    - icon: github
+      text: Github
+      href: https://github.com/LinoSergio
+bibliography: references.bib
+---
+
+## Descrição
+
+Lino Sérgio é pesquisador, professor e fisioterapeuta. Possui boa experiência com síntese de evidências (revisões sistemáticas e meta-análises). Também possui ampla experiencia com reabilitação em pacientes com distúrbios cardiovasculares e respiratórios e de pacientes internados em unidades de terapia intensiva (UTI). Além disso, realizo consultorias acadêmicas e análise de dados usando as linguagem de programação R e Python.
+
+## Formação
+
+1.  Universidade Federal de Sergipe \| Doutorado em Ciências da Saúde \| Agosto 2017 - Agosto 2019.
+
+2.  Universidade Federal de Sergipe \| Mestrado em Ciências da Saúde \| Março 2016 - Agosto 2017.
+
+3.  Universidade Federal de Sergipe \| Residência Multiprofissional em Saúde - Saúde do adulto e idoso\| Março 2013 - Março 2015.
+
+4.  Universidade Federal de Sergipe \| Graduação em Fisioterapia - Bacharelado \| Março 2009 - Março 2013.
+
+## Experiência profissional
+
+-   Hospital do Coração de Aracaju - HCor \| Fisioterapia e Reabilitação Hopitalar \| 2015 - 2017
+
+-   Hospital da Unimed/Se \| Fisioterapia e Reabilitação Hopitalar \| 2016 - 2023
+
+-   Professor substituto na Universidade Federal de Sergipe (UFS) \| 2019 - 2021
+
+-   Centro Especializado em Reabilitação (CER-IV) \| 2023 - Presente
