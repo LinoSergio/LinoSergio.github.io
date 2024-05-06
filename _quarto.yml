@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "LinoSergio.github.io"
+  title: "Lino Sergio Rocha Conceição"
   navbar:
     left:
       - href: index.qmd
