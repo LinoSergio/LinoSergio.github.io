@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lino Sergio Rocha Conceição - Artigos e trabalhos publicados</title>
+<title>Lino Sergio Rocha Conceição - Visualização de Dados</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -86,6 +66,22 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-foundation-1.13.6/css/dataTables.foundation.min.css" rel="stylesheet">
+<script src="site_libs/dt-core-foundation-1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="site_libs/dt-core-foundation-1.13.6/js/dataTables.foundation.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -113,12 +109,12 @@ div.csl-indent {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Artigos e trabalhos publicados</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about2.html"> 
-<span class="menu-text">Portifolio</span></a>
+    <a class="nav-link active" href="./about2.html" aria-current="page"> 
+<span class="menu-text">Visualização de Dados</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -136,8 +132,10 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#artigos-publicados" id="toc-artigos-publicados" class="nav-link active" data-scroll-target="#artigos-publicados">Artigos Publicados:</a></li>
-  <li><a href="#referencias-completas" id="toc-referencias-completas" class="nav-link" data-scroll-target="#referencias-completas">Referencias completas</a></li>
+  <li><a href="#mapeamento-epidemiológico" id="toc-mapeamento-epidemiológico" class="nav-link active" data-scroll-target="#mapeamento-epidemiológico">Mapeamento Epidemiológico</a></li>
+  <li><a href="#banco-de-dados" id="toc-banco-de-dados" class="nav-link" data-scroll-target="#banco-de-dados">Banco de Dados</a></li>
+  <li><a href="#mapeamento-epidemiológico-1" id="toc-mapeamento-epidemiológico-1" class="nav-link" data-scroll-target="#mapeamento-epidemiológico-1">Mapeamento epidemiológico</a></li>
+  <li><a href="#conclusão" id="toc-conclusão" class="nav-link" data-scroll-target="#conclusão">Conclusão</a></li>
   </ul>
 </nav>
     </div>
@@ -146,7 +144,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Artigos e trabalhos publicados</h1>
+<h1 class="title">Visualização de Dados</h1>
 </div>
 
 
@@ -163,92 +161,41 @@ div.csl-indent {
 </header>
 
 
-<section id="artigos-publicados" class="level2">
-<h2 class="anchored" data-anchor-id="artigos-publicados">Artigos Publicados:</h2>
-<ol type="1">
-<li><p><span class="citation" data-cites="Gomes-Neto2024">(<a href="#ref-Gomes-Neto2024" role="doc-biblioref">Gomes-Neto et al. 2024</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Durço2023">(<a href="#ref-Durço2023" role="doc-biblioref">Durço et al. 2023</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Guimarães2023">(<a href="#ref-Guimarães2023" role="doc-biblioref">Guimarães et al. 2023</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Durço2023a">(<a href="#ref-Durço2023a" role="doc-biblioref">Durço, Conceição, and Souza 2023</a>)</span></p></li>
-<li><p><span class="citation" data-cites="de2023">(<a href="#ref-de2023" role="doc-biblioref">Oliveira Rodrigues Junior et al. 2023</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Gois2023">(<a href="#ref-Gois2023" role="doc-biblioref">Gois et al. 2023</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Gois2022">(<a href="#ref-Gois2022" role="doc-biblioref">Gois, Conceição, and Carvalho 2022</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Conceição2021">(<a href="#ref-Conceição2021" role="doc-biblioref">Lino Sergio Rocha Conceição et al. 2021</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Conceição2020">(<a href="#ref-Conceição2020" role="doc-biblioref">Lino Sérgio Rocha Conceição, Gomes-Neto, and Carvalho 2020</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Conceição2021a">(<a href="#ref-Conceição2021a" role="doc-biblioref">Lino Sérgio Rocha Conceição et al. 2020</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Conceição2020a">(<a href="#ref-Conceição2020a" role="doc-biblioref">Lino Sérgio Rocha Conceição, Gomes, and Carvalho 2020</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Carvalho2020">(<a href="#ref-Carvalho2020" role="doc-biblioref">Carvalho, Conceição, and Gois 2020</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Gomes-Neto2019">(<a href="#ref-Gomes-Neto2019" role="doc-biblioref">Gomes-Neto, Durães, Conceição, Roever, Liu, et al. 2019</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Gomes-Neto2019a">(<a href="#ref-Gomes-Neto2019a" role="doc-biblioref">Gomes-Neto, Durães, Conceição, Roever, Silva, et al. 2019</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Fernandes2018">(<a href="#ref-Fernandes2018" role="doc-biblioref">Fernandes et al. 2018</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Gomes2018">(<a href="#ref-Gomes2018" role="doc-biblioref">Gomes Neto et al. 2018</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Rocha2018">(<a href="#ref-Rocha2018" role="doc-biblioref">Rocha Conceição et al. 2018</a>)</span></p></li>
-<li><p><span class="citation" data-cites="Conceição2016">(<a href="#ref-Conceição2016" role="doc-biblioref">Lino Sergio Rocha Conceição et al. 2016</a>)</span></p></li>
-</ol>
+<section id="mapeamento-epidemiológico" class="level3">
+<h3 class="anchored" data-anchor-id="mapeamento-epidemiológico">Mapeamento Epidemiológico</h3>
+<p>A análise epidemiológica desempenha um papel vital na compreensão do comportamento de várias doenças e condições. Mapeá-las nos permite compreender sua disseminação geográfica e temporal, identificar áreas críticas e ajudar a compreender as desigualdades demográficas e socioeconômicas. Além disso, eles orientam a tomada de decisões em saúde pública, incluindo alocação de recursos e implementação de medidas preventivas.</p>
+<p>A pandemia de COVID-19 trouxe um grande desafio epidemiológico. Mesmo recentemente, podemos, por meio da análise de bancos de dados disponíveis, observar o comportamento epidemiológico dessa condição.</p>
+<ul>
+<li>Várias ferramentas estão disponíveis para essa análise de dados. Aqui, vamos usar a linguagem R.</li>
+</ul>
 </section>
-<section id="referencias-completas" class="level2">
-
-
+<section id="banco-de-dados" class="level3">
+<h3 class="anchored" data-anchor-id="banco-de-dados">Banco de Dados</h3>
+<p>As bases de dados disponíveis para a análise da COVID-19 no Brasil estão acessíveis. Utilizaremos os dados disponíveis no <a href="https://opendatasus.saude.gov.br/">OpenDataSUS</a> ou no <a href="https://covid.saude.gov.br/">Painel de casos da doença pelo coronavírus 2019 (COVID-19) no Brasil do Ministério da Saúde</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-c0a7f94a589a121a9b32" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-c0a7f94a589a121a9b32">{"x":{"style":"foundation","filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Nordeste","Nordeste","Nordeste","Nordeste","Nordeste","Nordeste"],["SE","SE","SE","SE","SE","SE"],["Amparo de São Francisco","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju"],[28,28,28,28,28,28],[280010,280030,280030,280030,280030,280030],[28007,28001,28001,28001,28001,28001]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Região<\/th>\n      <th>Estado<\/th>\n      <th>Município<\/th>\n      <th>UF<\/th>\n      <th>Código municipal<\/th>\n      <th>Região de saúde<\/th>\n      <th>Data<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLenght":5,"dom":"tip","columnDefs":[{"className":"dt-right","targets":[4,5,6]},{"name":" ","targets":0},{"name":"regiao","targets":1},{"name":"estado","targets":2},{"name":"municipio","targets":3},{"name":"coduf","targets":4},{"name":"codmun","targets":5},{"name":"codRegiaoSaude","targets":6}],"order":[],"autoWidth":false,"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="mapeamento-epidemiológico-1" class="level3">
+<h3 class="anchored" data-anchor-id="mapeamento-epidemiológico-1">Mapeamento epidemiológico</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-d76b639b70bffb61bb0c" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-d76b639b70bffb61bb0c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[-10.1348,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.9091,-10.8996,-10.8996,-11.1397,-11.1397,-10.3524,-10.3524,-11.2659,-11.2659,-9.972200000000001,-10.4425,-10.6826,-10.6826,-10.99,-10.3477,-10.3477,-10.9136,-10.9136,-10.9136,-10.9136,-10.9136,-10.7981,-10.7308,-10.7308,-10.4854,-10.8468,-10.8468,-10.8468,-10.8468,-10.8468,-10.8468,-10.8468,-9.916259999999999,-10.2138,-10.2138,-10.2138,-10.5357,-10.6434,-11.0084,-11.0084,-11.0084,-10.7387,-10.7387,-10.7387,-10.2064,-11.1798,-11.1798,-11.1798,-11.3694],[-36.935,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0677,-37.0323,-37.0323,-37.6195,-37.6195,-37.7002,-37.7002,-37.4484,-37.4484,-37.0869,-36.5479,-37.4273,-37.4273,-37.3078,-36.8045,-36.8045,-37.6689,-37.6689,-37.6689,-37.6689,-37.6689,-37.1731,-37.0856,-37.0856,-37.1963,-37.1231,-37.1231,-37.1231,-37.1231,-37.1231,-37.1231,-37.1231,-37.2842,-36.8442,-36.8442,-36.8442,-37.438,-37.1931,-37.2044,-37.2044,-37.2044,-37.8097,-37.8097,-37.8097,-36.8818,-37.9995,-37.9995,-37.9995,-37.8433],[1,15.5884572681199,14.79864858694874,17.80449381476486,20.92844953645635,12.2065556157337,16.64331697709324,8.831760866327848,16.583123951777,18.60107523773828,18.97366596101028,15.03329637837291,14.17744687875783,10.09950493836208,15.03329637837291,10.48808848170152,4.358898943540674,8.426149773176359,10.09950493836208,6.082762530298219,6.782329983125268,7.483314773547883,7.071067811865476,2.23606797749979,1.414213562373095,1,17.60681686165901,23.87467277262665,30.29851481508623,15.93737745050923,14.69693845669907,14.14213562373095,14.42220510185596,16.79285562374666,15.8113883008419,7.937253933193772,1.414213562373095,1.414213562373095,1,1.414213562373095,1,1,2.23606797749979,5.196152422706632,1,1,1.732050807568877,2.449489742783178,5.567764362830022,2.645751311064591,1,2.645751311064591,2.82842712474619,3.3166247903554,4.123105625617661,5.744562646538029,1,1,1,1,4.69041575982343,2,1.414213562373095,3.741657386773941,8.944271909999159,5.656854249492381,3.464101615137754,1,2.23606797749979,3.16227766016838,4.795831523312719,1.732050807568877,1,1,1,1,1,1,1,1,1,1,1.414213562373095,1],null,null,{"interactive":true,"className":"","stroke":false,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.5},null,null,["<b>City: <\/b>Amparo de São Francisco<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>243","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>219","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>317","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>438","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>149","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>277","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>78","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>275","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>346","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>360","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>226","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>201","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>102","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>226","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>110","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>19","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>71","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>102","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>37","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>46","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>56","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>50","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>5","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>2","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>310","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>570","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>918","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>254","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>216","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>200","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>208","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>282","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>250","<b>City: <\/b>Aracaju<br><b>Confirmed Cases: <\/b>63","<b>City: <\/b>Barra dos Coqueiros<br><b>Confirmed Cases: <\/b>2","<b>City: <\/b>Barra dos Coqueiros<br><b>Confirmed Cases: <\/b>2","<b>City: <\/b>Boquim<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Boquim<br><b>Confirmed Cases: <\/b>2","<b>City: <\/b>Carira<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Carira<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Estância<br><b>Confirmed Cases: <\/b>5","<b>City: <\/b>Estância<br><b>Confirmed Cases: <\/b>27","<b>City: <\/b>Gararu<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Ilha das Flores<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Itabaiana<br><b>Confirmed Cases: <\/b>3","<b>City: <\/b>Itabaiana<br><b>Confirmed Cases: <\/b>6","<b>City: <\/b>Itaporanga d'Ajuda<br><b>Confirmed Cases: <\/b>31","<b>City: <\/b>Japoatã<br><b>Confirmed Cases: <\/b>7","<b>City: <\/b>Japoatã<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Lagarto<br><b>Confirmed Cases: <\/b>7","<b>City: <\/b>Lagarto<br><b>Confirmed Cases: <\/b>8","<b>City: <\/b>Lagarto<br><b>Confirmed Cases: <\/b>11","<b>City: <\/b>Lagarto<br><b>Confirmed Cases: <\/b>17","<b>City: <\/b>Lagarto<br><b>Confirmed Cases: <\/b>33","<b>City: <\/b>Laranjeiras<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Maruim<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Maruim<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Nossa Senhora das Dores<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Nossa Senhora do Socorro<br><b>Confirmed Cases: <\/b>22","<b>City: <\/b>Nossa Senhora do Socorro<br><b>Confirmed Cases: <\/b>4","<b>City: <\/b>Nossa Senhora do Socorro<br><b>Confirmed Cases: <\/b>2","<b>City: <\/b>Nossa Senhora do Socorro<br><b>Confirmed Cases: <\/b>14","<b>City: <\/b>Nossa Senhora do Socorro<br><b>Confirmed Cases: <\/b>80","<b>City: <\/b>Nossa Senhora do Socorro<br><b>Confirmed Cases: <\/b>32","<b>City: <\/b>Nossa Senhora do Socorro<br><b>Confirmed Cases: <\/b>12","<b>City: <\/b>Porto da Folha<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Propriá<br><b>Confirmed Cases: <\/b>5","<b>City: <\/b>Propriá<br><b>Confirmed Cases: <\/b>10","<b>City: <\/b>Propriá<br><b>Confirmed Cases: <\/b>23","<b>City: <\/b>Ribeirópolis<br><b>Confirmed Cases: <\/b>3","<b>City: <\/b>Santa Rosa de Lima<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>São Cristóvão<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>São Cristóvão<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>São Cristóvão<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Simão Dias<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Simão Dias<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Simão Dias<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Telha<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Tobias Barreto<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Tobias Barreto<br><b>Confirmed Cases: <\/b>1","<b>City: <\/b>Tobias Barreto<br><b>Confirmed Cases: <\/b>2","<b>City: <\/b>Tomar do Geru<br><b>Confirmed Cases: <\/b>1"],null,["Amparo de São Francisco","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Aracaju","Barra dos Coqueiros","Barra dos Coqueiros","Boquim","Boquim","Carira","Carira","Estância","Estância","Gararu","Ilha das Flores","Itabaiana","Itabaiana","Itaporanga d'Ajuda","Japoatã","Japoatã","Lagarto","Lagarto","Lagarto","Lagarto","Lagarto","Laranjeiras","Maruim","Maruim","Nossa Senhora das Dores","Nossa Senhora do Socorro","Nossa Senhora do Socorro","Nossa Senhora do Socorro","Nossa Senhora do Socorro","Nossa Senhora do Socorro","Nossa Senhora do Socorro","Nossa Senhora do Socorro","Porto da Folha","Propriá","Propriá","Propriá","Ribeirópolis","Santa Rosa de Lima","São Cristóvão","São Cristóvão","São Cristóvão","Simão Dias","Simão Dias","Simão Dias","Telha","Tobias Barreto","Tobias Barreto","Tobias Barreto","Tomar do Geru"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-11.3694,-9.916259999999999],"lng":[-37.9995,-36.5479]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="conclusão" class="level2">
+<h2 class="anchored" data-anchor-id="conclusão">Conclusão</h2>
+<p>A análise de dados e visualização tornou-se uma grande aliada da saúde pública. O mapeamento de diversas condições de saúde é de grande importância para a vigilância epidemiológica e tomada de decisões em saúde. Além disso, adiciona um grande valor para futuras políticas de saúde pública.</p>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias completas</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-Carvalho2020" class="csl-entry" role="listitem">
-Carvalho, Vitor Oliveira, Lino Sergio Rocha Conceição, and Miburge Bolivar Gois. 2020. <span>“COVID<span>-</span>19 Pandemic: Beyond Medical Education in Brazil.”</span> <em>Journal of Cardiac Surgery</em> 35 (6): 1170–71. <a href="https://doi.org/10.1111/jocs.14646">https://doi.org/10.1111/jocs.14646</a>.
-</div>
-<div id="ref-Conceição2021" class="csl-entry" role="listitem">
-Conceição, Lino Sergio Rocha, Caroline Oliveira Gois, Raiane Eunice Santos Fernandes, Paulo Ricardo Saquete Martins-Filho, Mansueto Gomes Neto, Victor Ribeiro Neves, and Vitor Oliveira Carvalho. 2021. <span>“Effect of High-Intensity Interval Training on Aerobic Capacity and Heart Rate Control of Heart Transplant Recipients: A Systematic Review with Meta-Analysis.”</span> <em>Brazilian Journal of Cardiovascular Surgery</em> 36 (1). <a href="https://doi.org/10.21470/1678-9741-2019-0420">https://doi.org/10.21470/1678-9741-2019-0420</a>.
-</div>
-<div id="ref-Conceição2016" class="csl-entry" role="listitem">
-Conceição, Lino Sergio Rocha, Mansueto Gomes Neto, Mayra Alves Soares do Amaral, Paulo Ricardo Saquete Martins-Filho, and Vitor Oliveira Carvalho. 2016. <span>“Effect of Dance Therapy on Blood Pressure and Exercise Capacity of Individuals with Hypertension: A Systematic Review and Meta-Analysis.”</span> <em>International Journal of Cardiology</em> 220 (October): 553–57. <a href="https://doi.org/10.1016/j.ijcard.2016.06.182">https://doi.org/10.1016/j.ijcard.2016.06.182</a>.
-</div>
-<div id="ref-Conceição2021a" class="csl-entry" role="listitem">
-Conceição, Lino Sérgio Rocha, Caroline Gois, Raiane Eunice Santos Fernandes, Diego Santos Souza, Miburge Bolivar Gois Júnior, and Vitor Oliveira Carvalho. 2020. <span>“Effect of Ivabradine on Exercise Capacity in Individuals with Heart Failure with Preserved Ejection Fraction.”</span> <em>Heart Failure Reviews</em> 26 (1): 157–63. <a href="https://doi.org/10.1007/s10741-020-10002-8">https://doi.org/10.1007/s10741-020-10002-8</a>.
-</div>
-<div id="ref-Conceição2020a" class="csl-entry" role="listitem">
-Conceição, Lino Sérgio Rocha, Cristiane Vilaça Campos Gomes, and Vitor Oliveira Carvalho. 2020. <span>“Comment on: <span>“</span>The Challenge of Maintaining Metabolic Health During a Global Pandemic<span>”</span>.”</span> <em>Sports Medicine</em> 50 (11): 2063–64. <a href="https://doi.org/10.1007/s40279-020-01311-x">https://doi.org/10.1007/s40279-020-01311-x</a>.
-</div>
-<div id="ref-Conceição2020" class="csl-entry" role="listitem">
-Conceição, Lino Sérgio Rocha, Mansueto Gomes-Neto, and Vitor Oliveira Carvalho. 2020. <span>“Comment on: <span>“</span>Effect of High-Intensity Interval Training Versus Sprint Interval Training on Time-Trial Performance: A Systematic Review and Meta-Analysis<span>”</span>.”</span> <em>Sports Medicine</em> 50 (12): 2263–64. <a href="https://doi.org/10.1007/s40279-020-01352-2">https://doi.org/10.1007/s40279-020-01352-2</a>.
-</div>
-<div id="ref-Durço2023a" class="csl-entry" role="listitem">
-Durço, Aimée Obolari, Lino Sergio Rocha Conceição, and Diego Santos Souza. 2023. <span>“Albumin: To Be, or Not to Be, a Buffer, That Is the Question.”</span> <em>Journal of Applied Physiology</em> 135 (1): 201–1. <a href="https://doi.org/10.1152/japplphysiol.00288.2023">https://doi.org/10.1152/japplphysiol.00288.2023</a>.
-</div>
-<div id="ref-Durço2023" class="csl-entry" role="listitem">
-Durço, Aimée Obolari, Karina Oliveira Mota, Lino Sergio Rocha Conceição, and Diego Santos Souza. 2023. <span>“The Albumin, the Hydrogen, the Carbon Dioxide, and the Bicarbonate: Four Substances and a Conflict.”</span> <em>Journal of Applied Physiology</em> 135 (5): 1180–80. <a href="https://doi.org/10.1152/japplphysiol.00616.2023">https://doi.org/10.1152/japplphysiol.00616.2023</a>.
-</div>
-<div id="ref-Fernandes2018" class="csl-entry" role="listitem">
-Fernandes, Bárbara Pereira, Lino Sergio Rocha Conceição, Paulo Ricardo Saquete Martins-Filho, Douglas Rafanelle Moura de Santana Motta, and Vitor Oliveira Carvalho. 2018. <span>“Effect of Mineralocorticoid Receptor Antagonists in Individuals With Heart Failure With Preserved Ejection Fraction: A Systematic Review.”</span> <em>Journal of Cardiac Failure</em> 24 (9): 618–21. <a href="https://doi.org/10.1016/j.cardfail.2018.08.006">https://doi.org/10.1016/j.cardfail.2018.08.006</a>.
-</div>
-<div id="ref-Gois2023" class="csl-entry" role="listitem">
-Gois, Caroline Oliveira, Lino Sergio Rocha Conceição, Alana Lalucha de Andrade Guimarães, and Vitor Oliveira Carvalho. 2023. <span>“Comment on: <span>“</span>Exercise Training and Cardiac Autonomic Function Following Coronary Artery Bypass Grafting: A Systematic Review and Meta-Analysis<span>”</span>.”</span> <em>The Egyptian Heart Journal</em> 75 (1). <a href="https://doi.org/10.1186/s43044-023-00344-7">https://doi.org/10.1186/s43044-023-00344-7</a>.
-</div>
-<div id="ref-Gois2022" class="csl-entry" role="listitem">
-Gois, Caroline Oliveira, Lino Sérgio Rocha Conceição, and Vitor Oliveira Carvalho. 2022. <span>“Comment on: <span>“</span>Resting Oxygen Uptake Value of 1 Metabolic Equivalent of Task in Older Adults: A Systematic Review and Descriptive Analysis.<span>”</span>.”</span> <em>Sports Medicine</em> 52 (8): 2003–5. <a href="https://doi.org/10.1007/s40279-021-01617-4">https://doi.org/10.1007/s40279-021-01617-4</a>.
-</div>
-<div id="ref-Gomes2018" class="csl-entry" role="listitem">
-Gomes Neto, Mansueto, André Rodrigues Durães, Lino Sergio Rocha Conceição, Micheli Bernardone Saquetto, Øyvind Ellingsen, and Vitor Oliveira Carvalho. 2018. <span>“High Intensity Interval Training Versus Moderate Intensity Continuous Training on Exercise Capacity and Quality of Life in Patients with Heart Failure with Reduced Ejection Fraction: A Systematic Review and Meta-Analysis.”</span> <em>International Journal of Cardiology</em> 261 (June): 134–41. <a href="https://doi.org/10.1016/j.ijcard.2018.02.076">https://doi.org/10.1016/j.ijcard.2018.02.076</a>.
-</div>
-<div id="ref-Gomes-Neto2024" class="csl-entry" role="listitem">
-Gomes-Neto, Mansueto, Andre Rodrigues Durães, Lino Sérgio Rocha Conceição, Michelli Bernardone Saquetto, Iura Gonzalez Alves, Neil A Smart, and Vitor Oliveira Carvalho. 2024. <span>“Some Types of Exercise Interventions Are More Effective Than Others in People with Coronary Heart Disease: Systematic Review and Network Meta-Analysis.”</span> <em>Journal of Physiotherapy</em> 70 (2): 106–14. <a href="https://doi.org/10.1016/j.jphys.2024.02.018">https://doi.org/10.1016/j.jphys.2024.02.018</a>.
-</div>
-<div id="ref-Gomes-Neto2019" class="csl-entry" role="listitem">
-Gomes-Neto, Mansueto, André Rodrigues Durães, Lino Sergio Rocha Conceição, Leonardo Roever, Tong Liu, Gary Tse, Giuseppe Biondi-Zoccai, et al. 2019. <span>“Effect of Aerobic Exercise on Peak Oxygen Consumption, VE/VCO2 Slope, and Health-Related Quality of Life in Patients with Heart Failure with Preserved Left Ventricular Ejection Fraction: A Systematic Review and Meta-Analysis.”</span> <em>Current Atherosclerosis Reports</em> 21 (11). <a href="https://doi.org/10.1007/s11883-019-0806-6">https://doi.org/10.1007/s11883-019-0806-6</a>.
-</div>
-<div id="ref-Gomes-Neto2019a" class="csl-entry" role="listitem">
-Gomes-Neto, Mansueto, André Rodrigues Durães, Lino Sergio Rocha Conceição, Leonardo Roever, Cassio Magalhães Silva, Iura Gonzalez Nogueira Alves, Øyvind Ellingsen, and Vitor Oliveira Carvalho. 2019. <span>“Effect of Combined Aerobic and Resistance Training on Peak Oxygen Consumption, Muscle Strength and Health-Related Quality of Life in Patients with Heart Failure with Reduced Left Ventricular Ejection Fraction: A Systematic Review and Meta-Analysis.”</span> <em>International Journal of Cardiology</em> 293 (October): 165–75. <a href="https://doi.org/10.1016/j.ijcard.2019.02.050">https://doi.org/10.1016/j.ijcard.2019.02.050</a>.
-</div>
-<div id="ref-Guimarães2023" class="csl-entry" role="listitem">
-Guimarães, Alana Lalucha Andrade, Mansueto Gomes-Neto, Lino Sérgio Rocha Conceição, Micheli Bernardone Saquetto, Caroline Oliveira Gois, and Vitor Oliveira Carvalho. 2023. <span>“Water-Based Exercises on Peak Oxygen Consumption, Exercise Time, and Muscle Strength in Patients with Coronary Artery Disease: A Systematic Review with Meta-Analysis.”</span> Edited by Baohui Xu. <em>Cardiovascular Therapeutics</em> 2023 (June): 1–11. <a href="https://doi.org/10.1155/2023/4305474">https://doi.org/10.1155/2023/4305474</a>.
-</div>
-<div id="ref-de2023" class="csl-entry" role="listitem">
-Oliveira Rodrigues Junior, Edinildo de, Izabel Rodrigues de Santana, Aimée Obolari Durço, Lino Sérgio Rocha Conceição, André Sales Barreto, Igor Alexandre Cortês Menezes, Danilo Roman-Campos, and Márcio Roberto Viana dos Santos. 2023. <span>“The Effects of Flavonoids in Experimental Sepsis: A Systematic Review and Meta<span>-</span>Analysis.”</span> <em>Phytotherapy Research</em> 37 (6): 2531–51. <a href="https://doi.org/10.1002/ptr.7846">https://doi.org/10.1002/ptr.7846</a>.
-</div>
-<div id="ref-Rocha2018" class="csl-entry" role="listitem">
-Rocha Conceição, Lino Sergio, Jessica Gonçalves de Queiroz, Mansueto Gomes Neto, Paulo Ricardo Saquete Martins-Filho, and Vitor Oliveira Carvalho. 2018. <span>“Effect of Waon Therapy in Individuals With Heart Failure: A Systematic Review.”</span> <em>Journal of Cardiac Failure</em> 24 (3): 204–6. <a href="https://doi.org/10.1016/j.cardfail.2018.01.008">https://doi.org/10.1016/j.cardfail.2018.01.008</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

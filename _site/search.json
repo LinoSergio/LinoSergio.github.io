@@ -40,5 +40,40 @@
     "title": "Artigos e trabalhos publicados",
     "section": "",
     "text": "(Gomes-Neto et al. 2024)\n(Durço et al. 2023)\n(Guimarães et al. 2023)\n(Durço, Conceição, and Souza 2023)\n(Oliveira Rodrigues Junior et al. 2023)\n(Gois et al. 2023)\n(Gois, Conceição, and Carvalho 2022)\n(Lino Sergio Rocha Conceição et al. 2021)\n(Lino Sérgio Rocha Conceição, Gomes-Neto, and Carvalho 2020)\n(Lino Sérgio Rocha Conceição et al. 2020)\n(Lino Sérgio Rocha Conceição, Gomes, and Carvalho 2020)\n(Carvalho, Conceição, and Gois 2020)\n(Gomes-Neto, Durães, Conceição, Roever, Liu, et al. 2019)\n(Gomes-Neto, Durães, Conceição, Roever, Silva, et al. 2019)\n(Fernandes et al. 2018)\n(Gomes Neto et al. 2018)\n(Rocha Conceição et al. 2018)\n(Lino Sergio Rocha Conceição et al. 2016)"
+  },
+  {
+    "objectID": "about2.html",
+    "href": "about2.html",
+    "title": "Visualização de Dados",
+    "section": "",
+    "text": "A análise epidemiológica desempenha um papel vital na compreensão do comportamento de várias doenças e condições. Mapeá-las nos permite compreender sua disseminação geográfica e temporal, identificar áreas críticas e ajudar a compreender as desigualdades demográficas e socioeconômicas. Além disso, eles orientam a tomada de decisões em saúde pública, incluindo alocação de recursos e implementação de medidas preventivas.\nA pandemia de COVID-19 trouxe um grande desafio epidemiológico. Mesmo recentemente, podemos, por meio da análise de bancos de dados disponíveis, observar o comportamento epidemiológico dessa condição.\n\nVárias ferramentas estão disponíveis para essa análise de dados. Aqui, vamos usar a linguagem R."
+  },
+  {
+    "objectID": "about2.html#introdução",
+    "href": "about2.html#introdução",
+    "title": "Portifolio",
+    "section": "",
+    "text": "A análise epidemiológica desempenha um papel vital na compreensão do comportamento de várias doenças e condições. Mapeá-las nos permite compreender sua disseminação geográfica e temporal, identificar áreas críticas e ajudar a compreender as desigualdades demográficas e socioeconômicas. Além disso, eles orientam a tomada de decisões em saúde pública, incluindo alocação de recursos e implementação de medidas preventivas.\nA pandemia de COVID-19 trouxe um grande desafio epidemiológico. Mesmo recentemente, podemos, por meio da análise de bancos de dados disponíveis, observar o comportamento epidemiológico dessa condição.\n\nVárias ferramentas estão disponíveis para essa análise de dados. Aqui, vamos usar a linguagem R."
+  },
+  {
+    "objectID": "about2.html#banco-de-dados",
+    "href": "about2.html#banco-de-dados",
+    "title": "Portifolio",
+    "section": "Banco de Dados",
+    "text": "Banco de Dados\nAs bases de dados disponíveis para a análise da COVID-19 no Brasil estão acessíveis. Utilizaremos os dados disponíveis no OpenDataSUS ou no Painel de casos da doença pelo coronavírus 2019 (COVID-19) no Brasil do Ministério da Saúde."
+  },
+  {
+    "objectID": "about2.html#mapeamento-epidemiológico",
+    "href": "about2.html#mapeamento-epidemiológico",
+    "title": "Portifolio",
+    "section": "Mapeamento epidemiológico",
+    "text": "Mapeamento epidemiológico"
+  },
+  {
+    "objectID": "about2.html#conclusão",
+    "href": "about2.html#conclusão",
+    "title": "Visualização de Dados",
+    "section": "Conclusão",
+    "text": "Conclusão\nA análise de dados e visualização tornou-se uma grande aliada da saúde pública. O mapeamento de diversas condições de saúde é de grande importância para a vigilância epidemiológica e tomada de decisões em saúde. Além disso, adiciona um grande valor para futuras políticas de saúde pública."
   }
 ]
